@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "NYTimes",
+    "version": "1.0",
+    "description": "Read recipes on cooking.nytimes.com",
+    "content_scripts": [
+      {
+        "js": [
+          "remove_paywall.js"
+        ],
+        "matches": [
+          "https://cooking.nytimes.com/*"
+        ]
+      }
+    ]
+  }
+  
